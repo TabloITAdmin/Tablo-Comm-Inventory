@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Tablo Comm Inventory Report Network</title>
+        <link rel="icon" type="image/x-icon" href="Tablo Logo.jpg">
+    </head>
+    <body>
+      <div class="content">
+      <div style="color: rgb(255, 141, 90); font-style: italic; font-size: 20px;">
+        <div style="text-align: center;">
+          <img src="Tablo Logo.jpg" alt="Tablo Logo" height="150" width="150"></div>
+          <h1>INVENTORY REPORT</h1>
+      </div>
+<form 
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbzK-EUP1flzq_UOzQtqKi98EJt1dEoTwH2fYpv_x2S7BQnMHOwENOgABH9dZMHLH42cLQ/exec">
+      <label for="PRODUCTS" style="color: rgb(255, 141, 90)">PRODUCT</label>
+      <div style="margin-top: 2px"></div>
+  <input list="PRODUCTS" id="PRODUCT FILE" name="PRODUCT NAME" placeholder="search here">
+    <datalist id="PRODUCTS">
+        <option value="Arla Feta Cheese 1kg">
+        <option value="Arla Feta Cheese 4kg">
+        <option value="Bacon Vida 500g">
+        <option value="Bangus Back Fillet 45g">
+        <option value="Bangus Belly 400g (S&r)">
+        <option value="Chicken Thigh Fillet Leg Meat 12kgs (Seara)">
+        <option value="Chiz Boy Shredded Cheddar 350g">
+        <option value="Emborg Cheese Danablu Wheel (Kilo)">
+        <option value="Emborg Cheese Gouda Wheel (Kilo)">
+        <option value="Emborg Cream Cheese 1.36kg">
+        <option value="Emborg Cream Cheese 1.5kg">
+        <option value="Mojo 2.27 Kg Redstone 8 Cut Wedges (Mccain)">
+        <option value="Molo Wrapper 3x3 200g">
+        <option value="Mozzarella Canoprole 5kg">
+        <option value="Oleo Butterblend Unsalted 225g">
+        <option value="Oleo Butterblend Unsalted in Blocks 2.5kg">
+        <option value="Parmesan Cheese Powder 500g">
+        <option value="Salmon Fillet Skin on (Kilo)">
+        <option value="Smoked Salmon 1kg">
+        <option value="Squid Rings 1kg">
+        <option value="Sunny Farm Cream Cheese 1.36kg">
+        <option value="Tokwa 10s">
+        <option value="Unfried Nacho 1kg (Bambi)">
+        <option value="Chicharon Toppings 800g">
+        <option value="Fresh Mango 120g">
+        <option value="Lechon Kawali 1kg">
+        <option value="Lechon Kawali Toppings for Sisig 1kg">
+        <option value="Pork Chop (Sous Vide)">
+        <option value="Pork Liempo (Sous Vide)">
+        <option value="Pork Ranchero 1kg">
+        <option value="Pork Ribs Cooked V3 (Kilo)">
+        <option value="Pork Steak (Sous Vide)">
+        <option value="Pork Steak 200g 10s">
+        <option value="Pulled Pork Adobo Flakes 1kg">
+        <option value="Riblets for Platter (Kilo)">
+        <option value="Shrimp Fresh 200g 10s">
+        <option value="Squid Fresh 1kg">
+        <option value="Tablo Beef 180g 10s">
+        <option value="Tablo Liempo Fresh 10s">
+        <option value="Tablo Pork Chop 10s">
+        <option value="Tablo Pork Sisig 150g 10s">
+        <option value="Tablo Pork Steak 10s">
+        <option value="Adobo Sauce 1.55l">
+        <option value="Aioli Sauce 500g">
+        <option value="Basil Leaves (Cooked) 1kg">
+        <option value="Basil Oil 500g">
+        <option value="Basil Pesto (Cooked) 5kg">
+        <option value="Basil Pesto 950g">
+        <option value="Bbq Glaze Basting 1.85l">
+        <option value="Bbq Mayo 500g">
+        <option value="Bbq Salad Dressing 1kg">
+        <option value="Bourbon Sauce 1.5kg V2">
+        <option value="Butter Veggies 500g">
+        <option value="Caesar Dressing 1.5l">
+        <option value="Cheese Sauce 450g">
+        <option value="Chilli Garlic Oyster Sauce 500g">
+        <option value="Coleslaw Dressing 500g">
+        <option value="Fried Garlic Oil 1.350l">
+        <option value="Fried Rice Sauce 1.5l">
+        <option value="Garlic Bread Basting Sauce 250g">
+        <option value="Herb Basting Sauce 500g V2">
+        <option value="Herb Butter Roll 100g 5s">
+        <option value="Herb Butter Shrimp Sauce 250g">
+        <option value="Honey Balsamic Dressing 500g">
+        <option value="Honey Garlic Sauce 500g">
+        <option value="Honey Labuyo Sauce 500g">
+        <option value="Lemon Garlic Aioli 500g">
+        <option value="Lemon Juice Solution 1l">
+        <option value="Lime Juice Solution 1l">
+        <option value="Mango Tamarind Citrus Dressing 500g">
+        <option value="Marinara Sauce 1.5kg">
+        <option value="Marinara Sauce 2.5kg">
+        <option value="Marinara Sauce 2kg">
+        <option value="Mushroom Based Soup 1kg">
+        <option value="Peri Rice Sauce 1kg">
+        <option value="Peri-peri Sauce 500g V2">
+        <option value="Pico Solution 500g">
+        <option value="Pineapple Tamarind Bbq Glazed 500g">
+        <option value="Pink Guava  Sauce 500g">
+        <option value="Ranchero Sauce 1.60kg V3">
+        <option value="Salpicado Sauce 1.75l">
+        <option value="Salt & Pepper Basting 500g">
+        <option value="Soy Caramel Sauce 500g V2">
+        <option value="Spiced Vinegar 1.5l V2">
+        <option value="Stir Fried Tofu Vegetable Sauce 500g">
+        <option value="Strawberry Sauce 1.9l">
+        <option value="Sundried Tomato Pesto 500g">
+        <option value="Sweet Sauce 1.95l">
+        <option value="Tablo Beef Nacho Sauce 500g V2">
+        <option value="Texas Bbq Sauce 1.60l V2">
+        <option value="Tokwa't Baboy Sauce 1.6l">
+        <option value="Batok (Cooked)">
+        <option value="Beef (Cooked) Mondelli">
+        <option value="Beef (Cooked) Tagaytay">
+        <option value="Beef Quarter Mondelli (Fresh)">
+        <option value="Beef Raw (Ibp)">
+        <option value="Beef Raw (Mondelli)">
+        <option value="Pork Shoulder Bone in">
+        <option value="Pork Tocino (Raw)">
+        <option value="Ranchero From Pork Steak">
+        <option value="Ribs Fresh Box (Raw)">
+        <option value="Beef Trimmings for Sauce (Kilo)">
+        <option value="Chicken Liver (Cooked)">
+        <option value="Fresh Batok">
+        <option value="Fresh Batok Grill">
+        <option value="Pork Liver (Cooked)">
+        <option value="Pork Skin (Cooked)">
+        <option value="Pork Skin (Fresh)">
+        <option value="Agnes Comm-made Chicken Imbotido 80g">
+        <option value="Ate Mae's Special Pork Bbq 500g">
+        <option value="Beef Pares 800g">
+        <option value="Caldereta Meals 1kg">
+        <option value="Chicken Tocino 500g">
+        <option value="Jesibelle's Yummy Chickenballs 720g 24s">
+        <option value="Marinated Shanghai 1kg">
+        <option value="Meat Platter Pork Steak (Kilo)">
+        <option value="Meatballs 80g">
+        <option value="Mgr. Adobo Flakes 100g 10s">
+        <option value="Mgr. Adobo Flakes 20g">
+        <option value="Pork Adobo Meals (Cooked)">
+        <option value="Pork Adobo Meals 1kg">
+        <option value="Pork Bbq 500g">
+        <option value="Pork Bistek 500g">
+        <option value="Pork Caldereta Cut Meals 1kg">
+        <option value="Pork Chicharon 800g">
+        <option value="Pork Giniling Fresh 2kg">
+        <option value="Pork Giniling Fresh 5kg">
+        <option value="Pork Giniling Meals (for Meatballs)">
+        <option value="Pork Giniling Meals 1kg">
+        <option value="Pork Humba 2kg">
+        <option value="Pork Kasim (Mechado) Meals 1kg">
+        <option value="Pork Kasim (Menudo) Meals 1kg">
+        <option value="Pork Kasim (Ranchero) Meals (Kilo)">
+        <option value="Pork Kasim Caldereta Cut Meals 1kg">
+        <option value="Pork Kasim Sinigang Cut Meals 1kg">
+        <option value="Pork Korean 500g">
+        <option value="Pork Lechon Kawali Sisig Toppings 1kg">
+        <option value="Pork Liempo Cut Meals 1kg">
+        <option value="Pork Menudo 500g">
+        <option value="Pork Menudo Cut Meals 1kg">
+        <option value="Pork Ranchero (Buto-buto) 1kg">
+        <option value="Pork Sinigang Cut Meals 1kg">
+        <option value="Pork Sisig 100g 10s">
+        <option value="Pork Sisig 2.4kg">
+        <option value="Pork Skin">
+        <option value="Pork Tocino 500g">
+        <option value="Pork Tocino 5kg">
+        <option value="Salt & Pepper Pork 500g">
+        <option value="Shredded Beef 1kg">
+        <option value="Shrimp Bisque">
+        <option value="Swedish Meatballs 12s">
+        <option value="Vicky's Special Pork Embotido">
+        <option value="Alaska Cream 1x12">
+        <option value="Bangus 450g">
+        <option value="Boiled Lemon With Sugar">
+        <option value="Ribs Sample (Cooked)">
+        <option value="Whole Strawberries">
+        <option value="Basil Leaves">
+        <option value="Beef Litid">
+        <option value="Pork Steak Ranchero (Kilo)">
+        <option value="Sawdust">
+        <option value="Shrimp Trimmings">
+        <option value="Squid Trimmings">
+        <option value="Milano Grated Parmesan 500g">
+        <option value="Salted Egg Based 440g">
+        <option value="Asian Dressing">
+        <option value="Honey Garlic Tamarind 250g">
+        <option value="Nouc Cham">
+        <option value="Peanut Sauce Based">
+        <option value="Pork Spareribs Cooked V4">
+        <option value="Summer Based">
+        <option value="South Cape Cream Cheese 2kg">
+        <option value="Tablo Pork Steak 200g 20s">
+        <option value="Tablo Liempo Fresh Na 20s 140g">
+        <option value="Garlic Bread Basting">
+        <option value="Aromatic Paste 500g">
+        <option value="Pork Kasim for Lechon Kawali">
+        <option value="Tablo Pork Steak 200g 20s">
+        <option value="Tablo Liempo Fresh Na 20s 140g">
+        <option value="Toasted Sunflower 250g">
+        <option value="Toasted Hibe 500g">
+    </datalist>
+      <div style="margin-top: 40px"></div>
+        <label for="QUANTITY" style="color: rgb(255, 141, 90)">QUANTITY</label>
+      <div style="margin-top: 2px"></div>
+        <label for="QUANTITY (IN)">IN:</label>
+  <input type="number" id="QUANTITY (IN)" name="QUANTITY (IN)" step=".01" style="height: auto; width: 50px;">
+      <div style="margin-top: 2px"></div>
+        <label for="QUANTITY (OUT)">OUT:</label>
+  <input type="number" id="QUANTITY (OUT)" name="QUANTITY (OUT)" step=".01" style="height: auto; width: 50px;">
+      <div style="margin-top: 10px"></div>
+        <label for="UNIT" style="color: rgb(255, 141, 90)">UNIT:</label>
+        <div style="margin-top: 10px;"></div>
+        <input type="checkbox" id="PACK" name="UNIT" value="PACK" class="largerCheckbox">
+        <label>PCK</label>
+        <input type="checkbox" id="PIECE" name="UNIT" value="PIECE" class="largerCheckbox">
+        <label>PC/S</label>
+        <input type="checkbox" id="PET-BOT" name="UNIT" value="PET-BOT" class="largerCheckbox">
+        <label>BOT</label>
+        <input type="checkbox" id="KILOGRAMS" name="UNIT" value="KILOGRAMS" class="largerCheckbox">
+        <label>KG</label>
+        <input type="checkbox" id="GRAMS" name="UNIT" value="GRAMS" class="largerCheckbox">
+        <label>G</label>
+        <input type="checkbox" id="TUB" name="UNIT" value="TUB" class="largerCheckbox">
+        <label>TUB</label>
+        <div style="margin-top: 10px;"></div>
+        <input type="checkbox" id="BAR" name="UNIT" value="BAR" class="largerCheckbox">
+        <label>BAR</label>
+        <input type="checkbox" id="BAG" name="UNIT" value="BAG" class="largerCheckbox">
+        <label>BAG</label>
+        <input type="checkbox" id="BOX" name="UNIT" value="BOX" class="largerCheckbox">
+        <label>BOX</label>
+      <div style="margin-top: 10px"></div>
+      <label for="PREPARED BY" style="color: rgb(255, 141, 90)">RECIEVED/PREPARED BY:</label>
+      <div style="margin-top: 5px; text-align: left; margin-left: 200px;">
+        <input type="checkbox" id="JHESSA" name="IN CHARGE (1)" value="JHESSA" class="largerCheckbox">
+        <label for="JHESSA">-  JHESSA</label></div>
+    <div style="margin-top: 10px; text-align: left; margin-left: 200px;">
+        <input type="checkbox" id="ARIEL" name="IN CHARGE (2)" value="ARIEL" class="largerCheckbox">
+        <label for="ARIEL">-  ARIEL</label></div>
+    <div style="margin-top: 10px; text-align: left; margin-left: 200px;">
+        <input type="checkbox" id="DAN" name="IN CHARGE (3)" value="DAN" class="largerCheckbox">
+        <label for="DAN">-  DAN</label></div>
+        
+        <div style="margin-top: 20px;">
+        <label style="color: rgb(255, 141, 90)">NOTES:</label></div>
+        <input type="text" name="NOTES">
+      <div style="margin-top: 30px;"></div>
+      <input id="time" name="TIME" style="width: 380px; text-align: center; background-color: rgb(255, 141, 90);">
+      <div style="margin-top: 30px;"></div>
+      <button type="submit" onclick="hideButton(this)" style="background-color: black; color: white;">ADD</button>
+      <div style="margin-top: 20px;"></div>
+</body>
+</form>
+<form action="checklist.html">
+  <input type="submit" value="CHECKLIST" style="height: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; background-color: rgb(60, 138, 143); color: white;">
+  </form>
+  <div style="margin-top: 20px;"></div>
+</form>
+<form action="currentstocks.html">
+  <input type="submit" value="CURRENT STOCKS" style="height: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; background-color: rgb(60, 138, 143); color: white;">
+  </form>
+<style>
+  input.largerCheckbox {
+            transform: scale(2);
+        }
+
+  body {
+    background-color: rgb(60, 138, 143);
+  }
+  .content {
+font-size: 20px;
+color: white;
+text-align: center;
+max-width: 500px;
+margin: auto;
+background: rgb(55, 79, 97);
+padding: 100px;
+  }
+</style>
+<script>
+  function hideButton(x)
+   {
+    x.style.display = 'none';
+   }
+</script>
+<script type="text/javascript">
+  document.getElementById('time').value = Date();
+</script>
+</html>
