@@ -80,3 +80,8 @@ ul {
 .cs {
     width: 530px;
 }
+
+select {
+    width: 200px;
+    height: 25px;
+}
