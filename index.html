@@ -6,16 +6,16 @@
   <link rel="icon" href="Tablo Logo.jpg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tablo Comm Inventory Report Network</title>
+  <title>Tablo Comm Product Report Network</title>
 </head>
 
 <body>
   <form
-    action="https://script.google.com/macros/s/AKfycbw5KwoIQJNxa_Zr0OwOXbQ2S-YxwbgU-U7di9XzEOYk1JJicyl-Y-aHlTIQXiOY5sLjiA/exec"
+    action="https://script.google.com/macros/s/AKfycbxSJERxdgp5ERnl-fwyWAKG3f8Z6QgytRe_5cPqY8BZxjCfxsfdmdKrVnR7m9fKcLBgew/exec"
     method="post">
     <div class="container">
       <img src="Tablo Logo.jpg" alt="Tablo Logo">
-      <h1><strong>INVENTORY REPORT</strong></h1>
+      <h1><strong>EVERDAYS <br> PRODUCT REPORT</strong></h1>
       <label>PRODUCT:</label><br>
       <input list="products" id="product input" name="PRODUCT NAME" placeholder="Search Here"
         onchange="resetIfInvalid(this);" required>
@@ -269,9 +269,11 @@
   <form action="checklist.html">
     <input type="submit" value="CHECKLIST" class="button">
   </form>
-  <form action="currentstocks.html">
-    <input type="submit" value="CURRENT STOCKS" class="button">
-  </form>
+  
+  <button class="button"
+  onclick="window.top.location.replace('https://script.google.com/macros/s/AKfycbyQYQbFKF_PdeP1mqI0DGpm1VsiPlgtcqRNPA2P0EbwUz2Hw2bW4U0Ds8M-6g05if9h/exec')"
+  type="submit">REAL TIME <br> STOCKS</button><br>
+
   </div>
 </body>
 <script src="script.js"></script>
